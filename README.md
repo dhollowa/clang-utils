@@ -10,8 +10,8 @@ TODO:
   - [x] add optional config path for clang-format-file
   - [x] add optional config style parameter
   - [x] rename to clang-utils
+  - [x] split one-repo-per-package
   - [ ] fix bug with multi-selection state
-  - [ ] split one-repo-per-package
   - [ ] add cursor positioning support
   - [ ] format file on save
   - [ ] add tests
