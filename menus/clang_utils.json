@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Clang Utilities : Format Selection",
+        "command": "clang-utils:format-selection"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Clang Utilities",
+          "submenu": [
+            {
+              "label": "Format Selection",
+              "command": "clang-utils:format-selection"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

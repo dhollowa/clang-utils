@@ -1,0 +1,35 @@
+{
+  "name": "clang-utils",
+  "author": "David Holloway <davidh@slugworth.com>",
+  "main": "./lib/main",
+  "version": "0.10.0",
+  "description": "Yet another package for running clang tools. Currently: format selection support.",
+  "keywords": [
+    "clang",
+    "format",
+    "clang-format",
+    "objective-c",
+    "c++"
+  ],
+  "repository": "https://github.com/dhollowa/clang-utils",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "configSchema": {
+    "formatStyle": {
+      "title": "Code formatting style",
+      "description": "Currently one of LLVM, Google, Chromium, Mozilla, WebKit",
+      "type": "string",
+      "default": "Google"
+    },
+    "formatExecutable": {
+      "title": "The clang-format executable.",
+      "description": "Specify full path to override shell default",
+      "type": "string",
+      "default": "clang-format"
+    }
+  }
+}
