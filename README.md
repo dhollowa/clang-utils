@@ -11,7 +11,7 @@ TODO:
   - [x] add optional config style parameter
   - [x] rename to clang-utils
   - [x] split one-repo-per-package
-  - [ ] fix bug with multi-selection state
+  - [x] fix bug with multi-selection state
   - [ ] add cursor positioning support
   - [ ] format file on save
   - [ ] add tests
