@@ -2,8 +2,8 @@
   "name": "clang-utils",
   "author": "David Holloway <davidh@slugworth.com>",
   "main": "./lib/main",
-  "version": "0.10.0",
-  "description": "Yet another package for running clang tools. Currently: format selection support.",
+  "version": "0.0.0",
+  "description": "Yet another package for running clang-format.",
   "keywords": [
     "clang",
     "format",
