@@ -2,7 +2,7 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Clang Utilities : Format Selection",
+        "label": "Clang Format",
         "command": "clang-utils:format-selection"
       }
     ]
