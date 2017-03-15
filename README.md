@@ -12,10 +12,10 @@ TODO:
   - [x] rename to clang-utils
   - [x] split one-repo-per-package
   - [x] fix bug with multi-selection state
+  - [x] add better error reporting with stderr displayed as alert, w/ etch?
   - [ ] add cursor positioning support
   - [ ] format file on save
   - [ ] add tests
-  - [ ] add better error reporting with stderr displayed as alert, w/ etch?
   - [ ] clang-rename
   - [ ] clang-tidy
   - [ ] find-all-symbols
