@@ -1,5 +1,5 @@
 {
-  "atom-workspace": {
-    "ctrl-shift-f": "clang-utils:format-selection"
+  "atom-text-editor[data-grammar='source c'],[data-grammar='source cpp'],[data-grammar='source java'],[data-grammar='source js'],[data-grammar='source json'],[data-grammar='source objc'],[data-grammar='source objcpp'],[data-grammar='source protobuf']:not([mini])": {
+    "ctrl-c f": "clang-utils:format-selection"
   }
 }
