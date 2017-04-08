@@ -19,17 +19,17 @@
   "dependencies": {
   },
   "configSchema": {
-    "formatStyle": {
-      "title": "Code formatting style",
-      "description": "Currently one of LLVM, Google, Chromium, Mozilla, WebKit",
-      "type": "string",
-      "default": "Google"
-    },
     "formatExecutable": {
       "title": "The clang-format executable.",
       "description": "Specify full path to override shell default",
       "type": "string",
       "default": "clang-format"
+    },
+    "formatBaseStyle": {
+      "title": "Code formatting base style.",
+      "description": "Currently one of LLVM, Google, Chromium, Mozilla, WebKit",
+      "type": "string",
+      "default": "Google"
     }
   }
 }
